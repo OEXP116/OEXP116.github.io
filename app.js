@@ -1,7 +1,7 @@
 function setActiveNav() {
     const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
     // Add 'active' class based on the current page
-    if (currentPage === 'index.html' || currentPage === '') {
+    if (currentPage === 'index.html') {
         document.getElementById('home-nav')?.classList.add('active');
     } else if (currentPage === 'about.html') {
         document.getElementById('about-nav')?.classList.add('active');
