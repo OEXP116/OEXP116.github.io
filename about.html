@@ -27,6 +27,17 @@
             document.getElementById('header').innerHTML = data;
         });
 
+        // Highlight the active nav item
+        const currentPage = window.location.pathname.split('/').pop(); // Get the current page name
+            if (currentPage === 'index.html' || currentPage === '') {
+                document.getElementById('home-nav').classList.add('active');
+            } else if (currentPage === 'about.html') {
+                document.getElementById('about-nav').classList.add('active');
+            } else if (currentPage === 'contact.html') {
+                document.getElementById('contact-nav').classList.add('active');
+            }
+            
+
     // Load Footer
     fetch('footer.html')
         .then(response => response.text())
