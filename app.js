@@ -8,6 +8,9 @@ function setActiveNav() {
     } else if (currentPage === 'contact.html') {
         document.getElementById('contact-nav')?.classList.add('active');
     }
+     else if (currentPage === 'blog.html') {
+    document.getElementById('blog-nav')?.classList.add('active');
+    }
 }
 
 // Load Header

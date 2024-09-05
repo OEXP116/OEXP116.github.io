@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+</head>
+<body>
+
+<!-- Include Header -->
+<div id="header"></div>
+
+<main>
+
+        <h1>CSS Positioning: Quick Overview</h1>
+        
+        <h2>Relative (<code>position: relative;</code>)</h2>
+        <p>An element with <code>position: relative</code> is positioned based on its normal place in the document flow. It still occupies space in the layout, but can be moved using the <code>top</code>, <code>right</code>, <code>bottom</code>, or <code>left</code> properties. This is useful for making small adjustments without disrupting other elements on the page.</p>
+    
+        <h2>Absolute (<code>position: absolute;</code>)</h2>
+        <p>Elements with <code>position: absolute</code> are removed from the document flow and positioned relative to their nearest positioned ancestor. If no such ancestor exists, they are positioned relative to the document. This method is ideal for placing elements like tooltips, popups, or dropdowns that need specific placement without affecting the surrounding layout.</p>
+    
+        <h2>Fixed (<code>position: fixed;</code>)</h2>
+        <p>An element with <code>position: fixed</code> is also removed from the normal document flow but is positioned relative to the viewport, meaning it stays in place even when the page is scrolled. This is commonly used for elements that need to remain visible, such as sticky headers, footers, or floating navigation menus.</p>
+
+
+</main>
+
+<!-- Include Footer -->
+<div id="footer"></div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
