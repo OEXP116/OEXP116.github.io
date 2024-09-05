@@ -18,3 +18,9 @@ h1 {
 p {
   margin-bottom: 20px;
 }
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px; /* adjust the width as needed */
+}
