@@ -19,6 +19,11 @@ function setActiveNav() {
     else if (currentPage === 'learning-plan.html') {
         document.getElementById('learning-nav')?.classList.add('active');
         }
+
+    else if (currentPage === 'javascript-dom.html') {
+        document.getElementById('JavaScript')?.classList.add('active');
+        }
+        
     
 }
 
