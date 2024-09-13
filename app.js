@@ -11,20 +11,16 @@ function setActiveNav() {
      else if (currentPage === 'blog.html') {
     document.getElementById('blog-nav')?.classList.add('active');
     }
-
-    else if (currentPage === 'identity-values.html') {
-        document.getElementById('identity-nav')?.classList.add('active');
-        }
-
-    else if (currentPage === 'learning-plan.html') {
-        document.getElementById('learn-nav')?.classList.add('active');
-        }
-
-    else if (currentPage === 'javascript-dom.html') {
-        document.getElementById('JavaScript-nav')?.classList.add('active');
-        }
-
-    
+     else if (currentPage === 'learning-plan.html') {
+    document.getElementById('learn-nav')?.classList.add('active');
+    }
+     else if (currentPage === 'identity-values.html') {
+    document.getElementById('identity-nav')?.classList.add('active');
+    }
+     else if (currentPage === 'javascript-dom.html') {
+    document.getElementById('JavaScript-nav')?.classList.add('active');
+    }
+        
 }
 
 // Load Header
