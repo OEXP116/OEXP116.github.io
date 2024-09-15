@@ -20,6 +20,9 @@ function setActiveNav() {
      else if (currentPage === 'javascript-dom.html') {
     document.getElementById('JavaScript-nav')?.classList.add('active');
     }
+     else if (currentPage === 'emotional-intelligence.html') {
+    document.getElementById('emotional-nav')?.classList.add('active');
+    }
         
 }
 
