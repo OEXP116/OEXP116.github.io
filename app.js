@@ -23,6 +23,9 @@ function setActiveNav() {
      else if (currentPage === 'emotional-intelligence.html') {
     document.getElementById('emotional-nav')?.classList.add('active');
     }
+     else if (currentPage === 'problem-solving.html') {
+    document.getElementById('problem-solving-nav')?.classList.add('active');
+    }
         
 }
 
