@@ -26,6 +26,12 @@ function setActiveNav() {
      else if (currentPage === 'problem-solving.html') {
     document.getElementById('problem-solving-nav')?.classList.add('active');
     }
+     else if (currentPage === 'neuroplasticity.html') {
+    document.getElementById('Neuroplasticity-nav')?.classList.add('active');
+    }
+     else if (currentPage === 'te-whare-tapa-wha.html') {
+    document.getElementById('te-whare-tapa-nav')?.classList.add('active');
+    }
         
 }
 
